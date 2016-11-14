@@ -2,22 +2,7 @@ class String
   define_method(:tc) do
     string_words = self.split(" ")
     string_words.each() do |string_word|
-      if string_word === "a"
-      elsif string_word === "an"
-      elsif string_word === "the"
-      elsif string_word === "at"
-      elsif string_word === "by"
-      elsif string_word === "for"
-      elsif string_word === "in"
-      elsif string_word === "of"
-      elsif string_word === "on"
-      elsif string_word === "to"
-      elsif string_word === "up"
-      elsif string_word === "and"
-      elsif string_word === "as"
-      elsif string_word === "but"
-      elsif string_word === "or"
-      elsif string_word === "nor"
+      if string_word === "a" || string_word === "an" || string_word === "the" || string_word === "at" || string_word === "by" || string_word === "for" || string_word === "in" || string_word === "of" || string_word === "on" || string_word === "to" || string_word === "up" || string_word === "and" || string_word === "as" || string_word === "but" || string_word === "or" || string_word === "nor"
       else
         string_word.capitalize!()
       end
